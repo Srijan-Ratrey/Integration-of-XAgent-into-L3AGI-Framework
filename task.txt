@@ -1,0 +1,51 @@
+Integration of XAgent into L3AGI Framework
+Objective:
+Replace the existing Langchain REACT Agent in the L3AGI framework with the XAgent framework.
+
+Background Information:
+- L3AGI Framework: https://github.com/l3vels/team-of-ai-agents 
+- XAgent Framework: https://github.com/OpenBMB/XAgent 
+
+
+Tasks:
+1. Understand the Existing Implementation:
+   - Review the L3AGI framework, focusing on areas where Langchain REACT Agent(https://python.langchain.com/docs/modules/agents/agent_types/react) is currently implemented.
+   - Key files to examine: `test.py`, `conversational.py`, `dialogue_agent_with_tools.py`.
+
+2. Plan the Replacement:
+   - Document the functionalities of the Langchain REACT Agent within L3AGI.
+   - Outline how these functionalities will be replicated or replaced by XAgent.
+
+
+3. Implement the Replacement:
+   - Remove the Langchain REACT Agent from the L3AGI framework.
+   - Integrate the XAgent framework, ensuring it fulfills the roles previously handled by the Langchain REACT Agent.
+   - Ensure that the integration is seamless and maintains the integrity of the L3AGI framework.
+
+4. Testing and Documentation:
+   - Thoroughly test the framework to ensure that all functionalities work as expected with XAgent.
+   - Document the changes made, including any new functionalities or alterations to existing features.
+ 
+
+Deliverables:
+- A modified version of the L3AGI framework with XAgent successfully integrated in your GitHub repo and share the link for submission with a screenshot that it is working.
+- A detailed report documenting:
+  - The process followed for removing the Langchain REACT Agent and integrating XAgent.
+  - Any challenges faced and how they were overcome.
+  - Testing procedures and results.
+  - Any additional notes or observations.
+
+
+Evaluation Criteria:
+- Correctness and completeness of the integration.
+- Quality and clarity of the documentation.
+- Effectiveness of the testing process.
+- Innovation in approach and problem-solving.
+
+
+Deadline:
+- 24 hours from the time of assignment.
+
+
+Submission Guidelines
+File Format: Ensure all files are accessible, and the repository is public or accessible with the provided link.
