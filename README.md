@@ -18,26 +18,19 @@ This project demonstrates the **complete migration** of the L3AGI framework from
 new prog/
 ├── 📚 team-of-ai-agents/          # Current L3AGI system (Langchain)
 ├── 🤖 XAgent/                     # XAgent framework to migrate to
-├── 🧪 demo_langchain_react.py     # Demo of current system
-├── 🚀 demo_xagent.py              # Demo of XAgent capabilities
 ├── 📊 migration_analysis.md       # Detailed technical analysis
 ├── 🔧 migration_guide.md          # Step-by-step implementation guide
-└── 📖 README.md                   # This file
+├── 📖 README.md                   # This file
+└── 🧪 test files                  # Testing and validation scripts
 ```
 
 ## 🚀 Quick Start
 
 ### 1. **Understand the Current System**
-```bash
-python demo_langchain_react.py
-```
-This shows how the current L3AGI system works with Langchain REACT Agent.
+Review the `team-of-ai-agents/` directory to see how the current L3AGI system works with Langchain REACT Agent.
 
 ### 2. **Explore XAgent Capabilities**
-```bash
-python demo_xagent.py
-```
-This demonstrates what XAgent can do and how it differs from Langchain.
+Check the `XAgent/` directory to understand the target framework's capabilities.
 
 ### 3. **Read the Analysis**
 Open `migration_analysis.md` to understand the technical details and migration strategy.
@@ -47,10 +40,6 @@ Use `migration_guide.md` for step-by-step implementation instructions.
 
 ## 🔍 What Each File Does
 
-### **Demo Files**
-- **`demo_langchain_react.py`** - Shows current L3AGI architecture and capabilities
-- **`demo_xagent.py`** - Demonstrates XAgent features and benefits
-
 ### **Documentation Files**
 - **`migration_analysis.md`** - Comprehensive technical analysis and planning
 - **`migration_guide.md`** - Practical step-by-step implementation guide
@@ -59,6 +48,7 @@ Use `migration_guide.md` for step-by-step implementation instructions.
 ### **Source Code**
 - **`team-of-ai-agents/`** - Current L3AGI implementation (Langchain-based)
 - **`XAgent/`** - Target framework for migration
+- **`agents/xagent/`** - New XAgent-based agents
 
 ## 🎯 Migration Benefits
 
@@ -106,14 +96,14 @@ Use `migration_guide.md` for step-by-step implementation instructions.
 4. Validate final system
 
 ### **Option 2: Just Understand the Concepts**
-1. Run the demo files to see both systems
+1. Review the existing L3AGI system
 2. Read the analysis document
 3. Understand the differences and benefits
 
 ### **Option 3: Quick Overview**
 1. Read this README
-2. Run the demo files
-3. Browse the analysis document
+2. Browse the analysis document
+3. Check the implementation files
 
 ## 🔧 Technical Details
 
@@ -200,7 +190,7 @@ This project is for educational purposes. The frameworks used are:
 
 ## 🎯 Next Steps
 
-1. **Start with the demos** to understand both systems
+1. **Review the existing system** to understand the current implementation
 2. **Read the analysis** to understand the migration strategy
 3. **Follow the guide** to implement the migration
 4. **Test thoroughly** at each phase
@@ -210,7 +200,7 @@ This project is for educational purposes. The frameworks used are:
 
 If you encounter issues:
 1. **Check the troubleshooting section** in the migration guide
-2. **Review the demo files** for working examples
+2. **Review the implementation files** for working examples
 3. **Consult the framework documentation**
 4. **Create an issue** with detailed error information
 
