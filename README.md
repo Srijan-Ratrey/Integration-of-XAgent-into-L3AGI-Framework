@@ -70,14 +70,14 @@ Use `migration_guide.md` for step-by-step implementation instructions.
 
 ## 📊 Migration Timeline
 
-| Phase | Duration | What You'll Do |
-|-------|----------|----------------|
-| **Foundation** | 2-3 hours | Set up XAgent, create base classes |
-| **Core Migration** | 4-6 hours | Migrate main agents to XAgent |
-| **Tool Integration** | 2-3 hours | Adapt tools for XAgent |
-| **Memory & Context** | 1-2 hours | Integrate existing memory system |
-| **Testing** | 2-3 hours | Validate everything works |
-| **Total** | **11-17 hours** | **Complete migration** |
+| Phase | What I Had to do |
+|-------|----------------|
+| **Foundation** |  Set up XAgent, create base classes |
+| **Core Migration** |  Migrate main agents to XAgent |
+| **Tool Integration** | Adapt tools for XAgent |
+| **Memory & Context** |  Integrate existing memory system |
+| **Testing** |  Validate everything works |
+| **Total** | **Complete migration** |
 
 ## 🛠️ Prerequisites
 
